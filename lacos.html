@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        var y = 1
+        //Testando o While
+        while( y <= 5){
+            document.write("valor da variavel While = " + y + "</br>" )
+            y ++
+        }
+        //zerando a variavel
+        while(y === 5 || y === 6){
+            y = 1
+        }
+        document.write("</br>")
+        //Testando o Do While
+        do{
+            document.write("valor da variavel Do While= " + y + "</br>" )
+            y ++
+        }while(y <= 5)
+        //zerando a variavel
+        while(y === 5 || y === 6){
+            y = 1
+        }
+        document.write("</br>")
+        //Testando o For
+        for(y; y<= 5; y++){
+            document.write("valor da variavel For = " + y + "</br>" )
+        }
+
+        document.write("</br>" + "</br>" + "</br>")
+
+        for(var x = 1; x <= 10; x++){
+            for(var z = 1; z<= 10; z++ ){
+                document.write( x + "x" + z + "=" + (x * z) + ("</br>") )
+            }
+            document.write("</br>" + "<hr>" +"</br>")
+        }
+    </script>
+</head>
+<body>
+</body>
+</html>
